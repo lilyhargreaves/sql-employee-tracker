@@ -31,7 +31,7 @@ start = () => {
 
         .then(response => {
 
-            if (response.initQuestion === "View All Employees"){
+            if (response.mainMenu === "View All Employees"){
                 viewAllEmployees();  
             } 
             else if (response.mainMenu === "Add Employee"){
